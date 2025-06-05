@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+        crossorigin="anonymous"></script>
+    <style>
+        .projects {
+            margin: 0;
+            padding: 0;
+            display: flex;
+
+            font-family: Arial, sans-serif;
+        }
+
+        .sidebar {
+            height: 100vh;
+            width: 280px;
+            background-color: #d35400;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 120px;
+            box-sizing: border-box;
+            position: fixed;
+        }
+
+        .sidebar img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+            /* border: 5px solid white; */
+            border: 5px solid #d38551;
+        }
+
+        .sidebar .nav-link {
+            color: white;
+            padding: 12px 20px;
+            width: 100%;
+            text-align: center;
+            font-size: 18px;
+            text-decoration: none;
+            transition: background-color 0.3s ease, font-size 0.3s ease;
+            cursor: pointer;
+        }
+
+        .sidebar .nav-link:hover {
+
+
+            color: #c3bcbc;
+        }
+
+        .content4 {
+            align-items: center;
+            margin-left: 23%;
+            padding-top: 2%;
+            padding-bottom: 2%;
+        }
+
+        
+        .type-project{
+            display: flex;
+            flex-direction: row;
+            margin-left: 23%;
+            padding-bottom: 2%;
+            
+        }
+        .card{
+            margin-right: 5%;
+            width: 300px;
+        }
+        .card:hover{
+        
+        }
+        .card img{
+            margin-left: 20px;
+            margin-top: 10px;
+            height: 200px;
+            width: 250px;
+            align-items: center;
+        }
+
+       
+    </style>
+</head>
+
+<body>
+    <div class="projects">
+        <div class="sidebar">
+            <img src="https://media.licdn.com/dms/image/v2/D5603AQFS4gu0CuQ8tQ/profile-displayphoto-shrink_400_400/B56ZTv55tDGoAg-/0/1739191721408?e=1754524800&v=beta&t=qh0j0mdNzZu6THRM-dvgxNXUxYVM6VKW3y28CO7Ih_Y"
+                alt="Pavan Kalyan" />
+            <a class="nav-link " href="Home.html">About</a>
+            <a class="nav-link" href="education.html">Education</a>
+            <a class="nav-link" href="skills.html">Skills</a>
+            <a class="nav-link" href="projects.html">Projects</a>
+            <a class="nav-link" href="interest.html">Interest</a>
+            <a class="nav-link" href="cerificate.html">Certification</a>
+        </div>
+
+        <div class="content4">
+            <h1
+                style="font-size: 60px;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;color: #464343;">
+                PROJECTS</h1>
+        </div>
+
+    </div>
+
+
+
+    <div class="type-project">
+        <div class="card">
+            <img src="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/9293/809293-i"
+                class="card-img-top" alt="movie">
+            <div class="card-body">
+                <h5 class="card-title">MovieMania Website</h5>
+                <p class="card-text">A movie search website using API integration.</p>
+                <a href="https://lnkd.in/gwn2xwsz" class="btn btn-secondary" target="_blank">Visit here</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://media.licdn.com/dms/image/v2/D5622AQEeMilTtazy1A/feedshare-shrink_2048_1536/B56ZTFIKdCGoAs-/0/1738474041548?e=1752105600&v=beta&t=EfqAr_N_4ridRdSYJJ72_yA55VFAaXhev5FpM3Yy9Uo"
+                class="card-img-top" alt="WordScramble">
+            <div class="card-body">
+                <h5 class="card-title">WordScramble Game</h5>
+                <p class="card-text">Built using JavaScript for real-time word scrambling fun.</p>
+                <a href="https://lnkd.in/gxdtfwBP" class="btn btn-secondary" target="_blank">Try it here</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://img.freepik.com/premium-photo/hotel-room-images-background-copy-space_1179130-711122.jpg?ga=GA1.1.1709827706.1726588294&semt=ais_hybrids"
+                class="card-img-top" alt="Hotel">
+            <div class="card-body">
+                <h5 class="card-title">HolidayIn Website</h5>
+                <p class="card-text">A hotel booking website with responsive UI.</p>
+                <a href="https://lnkd.in/gZD-95Aa" class="btn btn-secondary" target="_blank">Visit site</a>
+            </div>
+        </div>
+      
+
+
+    </div>
+    <div class="type-project">
+    <div class="card">
+    <img src="https://media.geeksforgeeks.org/wp-content/uploads/20250121172354286891/Screenshot-2025-01-21-172254.png" class="card-img-top" alt="To-Do App">
+    <div class="card-body">
+      <h5 class="card-title">To-Do List</h5>
+      <p class="card-text">Simple task manager with add/delete functionality.</p>
+      <a href="https://lnkd.in/gZ4cXFBQ" class="btn btn-secondary" target="_blank">View Code</a>
+    </div>
+  </div>
+
+    <div class="card">
+    <img src="https://miro.medium.com/v2/resize:fit:1400/1*Dvs7OgbX8XnAB_M3U4Qecw.png" class="card-img-top" alt="Calculator">
+    <div class="card-body">
+      <h5 class="card-title">Calculator</h5>
+      <p class="card-text">A basic calculator built using HTML, CSS, and JS.</p>
+      <a href="https://lnkd.in/gt2-mmSB" class="btn btn-secondary" target="_blank">Check Code</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTx0fIs6KCzs1rlQik8dv9dmtvg9qDbFfJ0pA&s" class="card-img-top" alt="Snake Game">
+    <div class="card-body">
+      <h5 class="card-title">Snake Game</h5>
+      <p class="card-text">Classic snake game made with JavaScript.</p>
+      <a href="https://lnkd.in/gSCAjqWd" class="btn btn-secondary" target="_blank">Play Now</a>
+    </div>
+    </div>
+</body>
+
+</html>
